@@ -7,10 +7,10 @@ Instagram Clone (Both frontend and backend) created with Flutter and Firebase.
 ## Show some :heart: and star the repo to support the project.
 
 ## Note
-This repository is still under development and I will continue to add more features to it.
+This repo is still being revamped.
 
 ## Features
-
+* Responsive Design
  * Custom photo feed based on who you follow
  * Post photo posts from camera or gallery
    * Like posts
@@ -63,7 +63,7 @@ $ cd Instagram-Clone/
 
 #### 3. Setup the firebase app
 
-1. You'll need to create a Firebase instance. Follow the instructions at https://console.firebase.google.com.
+1. You'll need to create a Firebase instance. Follow the instructions at https://console.firebase.google.com. or use the FlutterFire CLI
 2. Once your Firebase instance is created, you'll need to enable anonymous authentication.
 
 * Go to the Firebase Console for your new instance.
