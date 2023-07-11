@@ -1,6 +1,6 @@
 # Instagram_clone
 
-Instagram Clone (Both frontend and backend) created with Flutter and Firebase.
+Instagram Clone (Both frontend and backend) created with Flutter and Supabase*.
 
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/mohak1283)
 
@@ -11,6 +11,7 @@ This repo is still being revamped.
 
 ## Features
 * Responsive Design
+* Email auth
  * Custom photo feed based on who you follow
  * Post photo posts from camera or gallery
    * Like posts
@@ -29,7 +30,7 @@ This repo is still being revamped.
     * Share images while chatting
  
 
-
+#Screenshots do not reflect refactor changes, expext updates soon!
 ## Screenshots
 
 
