@@ -49,7 +49,7 @@ $ cd Instagram-Clone/
 2. Click 'Start your project'
    
 * Enter your Organization name, this can maybe be your name or whatever cover name you have for the project, don't overthink it.
-* Next Enter the project name, and a password, prefferably something youll remeber, although in this use case, you wont need it.
+* Next Enter the project name, and a password, prefferably something you'll remember, although in this use case, you wont need it.
 * Pick a server location, prefferably somewhere close to you.
    ![image](https://github.com/ThatLinuxGuyYouKnow/Instagram-Clone/assets/92615787/a60eb63f-e2c3-4e43-8164-4b071123c010)
 
