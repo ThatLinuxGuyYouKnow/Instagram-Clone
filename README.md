@@ -47,9 +47,10 @@ $ cd Instagram-Clone/
  ![image](https://github.com/ThatLinuxGuyYouKnow/Instagram-Clone/assets/92615787/f6079fa0-413d-466e-b40e-5f421635f93f)
 
 2. Click 'Start your project'
-   *Enter your Organization name, this can maybe be your name or whatever cover name you have for the project, don't overthink it.
-   *Next Enter the project name, and a password, prefferably something youll remeber, although in this use case, you wont need it.
-   *Pick a server location, prefferably somewhere close to you.
+   
+* Enter your Organization name, this can maybe be your name or whatever cover name you have for the project, don't overthink it.
+* Next Enter the project name, and a password, prefferably something youll remeber, although in this use case, you wont need it.
+* Pick a server location, prefferably somewhere close to you.
    ![image](https://github.com/ThatLinuxGuyYouKnow/Instagram-Clone/assets/92615787/a60eb63f-e2c3-4e43-8164-4b071123c010)
 
 3. Once you create a new project, you'll need to enable email auth.
@@ -61,7 +62,7 @@ $ cd Instagram-Clone/
 
   
 # Database and Tables
-4 Go to the Supabase Console
+4 While still on the Console
 * Click "Database" in the left-hand menu(just above 'authentication')
 * Click on new table on the right side
 * Create a table called 'Users'
