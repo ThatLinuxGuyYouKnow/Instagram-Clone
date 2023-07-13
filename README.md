@@ -43,7 +43,7 @@ $ cd Instagram-Clone/
 
 #### 3. Setup the Supabase* app
 
-1. You'll need to create a new Supabase project. Head on over to supabase.io || supabase.com
+1. You'll need to create a new Supabase project. Head on over to [supabase.io](supabase.io) || [supabase.com](supabase.com)
  ![image](https://github.com/ThatLinuxGuyYouKnow/Instagram-Clone/assets/92615787/f6079fa0-413d-466e-b40e-5f421635f93f)
 
 2. Click 'Start your project'
