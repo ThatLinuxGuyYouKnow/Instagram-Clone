@@ -47,22 +47,25 @@ $ cd Instagram-Clone/
  ![image](https://github.com/ThatLinuxGuyYouKnow/Instagram-Clone/assets/92615787/f6079fa0-413d-466e-b40e-5f421635f93f)
 
 2. Click 'Start your project'
+   -Enter your Organization name, this can maybe be your name or whatever cover name you have for the project, don't overthink it.
+   -Next Enter the project name, and a password, prefferably something youll remeber, although in this use case, you wont need it.
+   -Pick a serever location, prefferably somewhere close to you.
+   ![image](https://github.com/ThatLinuxGuyYouKnow/Instagram-Clone/assets/92615787/a60eb63f-e2c3-4e43-8164-4b071123c010)
+
 3. Once you create a new project, you'll need to enable email auth.
-   
 
 * Go to the Supabase Console for your new project.
 * Click "Authentication" in the left-hand menu
 * Click the "Providers" tab
 * Click "email" and enable it
-## Rest of this has not been updated to reflect supabase docs
-## TODO##
 
-4. Enable the Firebase Database
-* Go to the Supabase Console
+  
+# Database and Tables
+4 Go to the Supabase Console
 * Click "Database" in the left-hand menu(just above 'authentication')
-* Click the Cloudstore "Create Database" button
-* Select "Start in test mode" and "Enable"
-
+* Click on new table on the right side
+* Create a table called 'Users'
+## Most recent pdate, TODO##
 5. (skip if not running on Android)
 
 * Create an app within your Firebase instance for Android, with package name com.mohak.instagram
