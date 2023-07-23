@@ -65,35 +65,11 @@ $ cd Instagram-Clone/
 4 While still on the Console
 * Click "Database" in the left-hand menu(just above 'authentication')
 * Click on new table on the right side
-* Create a table called 'Users'
-## Most recent pdate, TODO##
-5. (skip if not running on Android)
-
-* Create an app within your Firebase instance for Android, with package name com.mohak.instagram
-* Run the following command to get your SHA-1 key:
-
-```
-keytool -exportcert -list -v \
--alias androiddebugkey -keystore ~/.android/debug.keystore
-```
-
-* In the Firebase console, in the settings of your Android app, add your SHA-1 key by clicking "Add Fingerprint".
-* Follow instructions to download google-services.json
-* place `google-services.json` into `/android/app/`.
-
-
-6. (skip if not running on iOS)
-
-* Create an app within your Firebase instance for iOS, with your app package name
-* Follow instructions to download GoogleService-Info.plist
-* Open XCode, right click the Runner folder, select the "Add Files to 'Runner'" menu, and select the GoogleService-Info.plist file to add it to /ios/Runner in XCode
-* Open /ios/Runner/Info.plist in a text editor. Locate the CFBundleURLSchemes key. The second item in the array value of this key is specific to the Firebase instance. Replace it with the value for REVERSED_CLIENT_ID from GoogleService-Info.plist
-
-Double check install instructions for both
-   - Google Auth Plugin
-     - https://pub.dartlang.org/packages/firebase_auth
-   - Firestore Plugin
-     -  https://pub.dartlang.org/packages/cloud_firestore
+* Create a table called 'users'
+  - Along with the auto generated colums, add the column 'email' of type 'text'.
+* Create another table 'chats' .
+  - Enable Realtime, as you'll need to show chats immediately they are recieved.
+  - Along with the auto-generated columns, add the columns 'recepient_id' , 'sender_id' and 'chat' of type 'text'
 
 # Upcoming Features
  -  Notificaitons for likes, comments, follows, etc
