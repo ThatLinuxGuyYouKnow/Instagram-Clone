@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:instagram1supa1clone/utils/appbar.dart';
 import 'package:instagram1supa1clone/utils/divider.dart';
+import 'package:instagram1supa1clone/utils/post.dart';
 
 class HomePage extends StatelessWidget {
   bool? largeScreen;
@@ -38,7 +39,13 @@ class HomePage extends StatelessWidget {
                       color: Colors.grey[100],
                       height: screenHeight * 0.3,
                       width: screenWidth * 0.8,
-                      child: const Text('hallo')))
+                      child: const Text('hallo'))),
+              SpacedDivider(
+                screenHeight: screenHeight,
+              ),
+              InstaPost(
+                postHasImage: true,
+              )
             ],
           ),
         ),
